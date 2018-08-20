@@ -17,7 +17,7 @@ Card.propTypes = {
   location: PropType.string,
   stats: PropType.object,
   selectCards: PropType.func,
-  selected: PropType.boolean
+  selected: PropType.bool
 };
 
 export default Card;

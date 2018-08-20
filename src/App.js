@@ -42,10 +42,9 @@ class App extends Component {
 
     if (selectState.length < 2) {
       const selectedCards = [...this.state.selectedCards, selectedCard];
-      this.setState({ selectedCards }), () => this.compareCards();
+      this.setState({ selectedCards }, () => this.compareCards( this.state.selectedCards ));
       selectedCard.isSelected = !selectedCard.isSelected;
     }
-
   }
 
   unselectCards = (location) => {
@@ -55,6 +54,7 @@ class App extends Component {
   }
 
   compareCards = () => {
+
     if (this.state.selectedCards.length > 1) {
       const district1 = this.state.selectedCards[0].location;
       const district2 = this.state.selectedCards[1].location;
