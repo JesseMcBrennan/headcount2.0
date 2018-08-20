@@ -11,4 +11,7 @@ This was a solo project built by me, Jesse McFadden. The main goal of the projec
 To search for a specific district, simply type into the search input field. To compare two districts, click on the first district you would like to compare, then the second.
 
 <img src="/Screen Shot 2018-08-19 at 7.01.07 PM.png">
+
+<img src="/Screen Shot 2018-08-19 at 7.01.20 PM.png">
+    
     
