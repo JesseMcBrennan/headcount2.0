@@ -18,7 +18,7 @@ const ComparedCard = ({ compareObject }) => {
 };
 
 ComparedCard.propTypes = {
-  compareObject: PropType.object
+  compareObject: PropType.array
 };
 
 export default ComparedCard;

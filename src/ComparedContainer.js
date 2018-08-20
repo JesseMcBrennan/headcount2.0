@@ -9,7 +9,7 @@ const ComparedContainer = ({ compareObject }) => {
 };
 
 ComparedContainer.propTypes = {
-  compareObject: PropType.object
+  compareObject: PropType.array
 };
 
 export default ComparedContainer;

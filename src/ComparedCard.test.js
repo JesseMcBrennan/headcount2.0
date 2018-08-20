@@ -6,7 +6,9 @@ describe('ComparedCard', () => {
   it('should render with all the appropriate elements', () => {
 
     const wrapper = shallow(<ComparedCard 
-      comparedObject={[]}
-    />)
-  })
-})
+      comparedObject={{COLORADO: 0.53, 'ACADEMY 20': 0.407, compared: 1.302}}
+  />);
+
+    expect(wrapper).toMatchSnapshop();
+  });
+});

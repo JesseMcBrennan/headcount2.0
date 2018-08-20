@@ -4,7 +4,7 @@ exports[`ComparedContainer should render with all of the appropriate elements 1`
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ComparedContainer
-    comparedObject={Array []}
+    compareObject={Array []}
 />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -18,7 +18,7 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "compareObject": undefined,
+      "compareObject": Array [],
     },
     "ref": null,
     "rendered": null,
@@ -30,7 +30,7 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "compareObject": undefined,
+        "compareObject": Array [],
       },
       "ref": null,
       "rendered": null,
