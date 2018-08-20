@@ -31,4 +31,18 @@ describe('App', () => {
     expect(wrapper.state().data.length).toEqual(2);
     expect(wrapper.state().data).toEqual(mockData);
   });
+
+  it('should mark isSelected if the user clicks on the same card twice', () => {
+
+    wrapper.instance().selectCards('COLORADO');
+    
+    expect(wrapper.state().selectedCards.length).toEqual(1);
+
+    wrapper.instance().selectCards('COLORADO');
+
+    expect(wrapper.state().selectedCards.length).toEqual(0);
+  });
+
+
+
 });
